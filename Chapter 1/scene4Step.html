@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Not A Y/N Fantasy</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  	<script>
+	$(document).ready(function(){
+ 		$('[data-toggle="popover"]').popover();
+	});
+	</script>
+
+	<style type="text/css">
+
+		#main-footer{
+			font-size: 15px;
+			color: white;
+		}
+
+		#main-header{
+      		color: white;
+      		font-family: Courier New
+		}
+
+		#narrate{
+			font-family: Courier New;
+			color: white;
+			font-size: 25px;
+			text-align: center;
+  			border: 2px solid white;
+  			border-radius: 5px;
+		}
+
+		#dialogue{
+			font-family: Courier New;
+			color: white;
+			font-size: 25px;
+			text-align: center;
+		}
+
+		#decision{
+			font-family: Courier New;
+			color: white;
+			font-size: 40px;
+			text-align: center;
+			text-decoration: overline;
+			text-shadow: 2px 2px 10px red;
+		}
+
+	</style>
+</head>
+
+<body style="background-color: black;">
+
+<div class="jumbotron text-center" style="background-color: black;">
+	<header id="main-header">
+		<p style="font-size: 40px;">You decided to say: No because you want to follow Stephen and check on him.</p>
+	</header>
+</div>
+	
+<div>
+	<article class="post" id="dialogue">
+		<p>
+		You: Not really. I think I'm going to go check on Stephen.
+		</p>
+	</article>
+</div>
+
+<div class="container-fluid" style="margin-top:30px;">
+	<div class="d-flex justify-content-center">
+		<img class="img-fluid" src="images/damien-roofparty.jpg">
+	</div>
+</div>
+
+<div style="margin-top:30px;">
+	<article class="post" id="dialogue">
+		<p>
+		Damien: Suit yourself. I'll leave you to it, then.
+		</p>
+		<br>
+		<p>
+		You: Okay.
+		</p>
+		<br>
+		<p>
+		Damien: See you around, y/n.
+		</p>
+	</article>
+	<br>
+	<article class="post" id="narrate">
+		<p>
+		You leave Damien to look for Stephen. Shortly after, you find him in a lonely corner of the party. Tears are streaming down his face and he's writing in his journal. He doesn't notice you standing nearby.
+		</p>
+	</article>
+	<br>
+	<article class="post" id="dialogue">
+		<p>
+		You: Hey, Stephen. Are you okay?
+		</p>
+	</article>
+	<br>
+	<article class="post" id="narrate">
+		<p>
+		He glances up.
+		</p>
+	</article>
+</div>
+
+<div class="container-fluid" style="margin-top:30px;">
+	<div class="d-flex justify-content-center">
+		<img class="img-fluid" src="images/stephen-roofparty.jpg">
+	</div>
+</div>
+
+<div style="margin-top:30px;">
+	<article class="post" id="dialogue">
+		<p>
+		Stephen: Do I look 'okay' to you?
+		</p>
+		<br>
+		<p>
+		You: Well, no... Do you want to talk about it?
+		</p>
+		<br>
+		<p>
+		Stephen: Not with you...You just wouldn't understand. I know I said we were kindred spirits, but that was just wishful thinking. No one will ever understand me.
+		</p>
+	</article>
+	<br>
+	<article class="post" id="decision">
+		<p>
+		DECISION: How do you respond?
+		</p>
+	</article>
+</div>
+
+<div class="d-flex justify-content-center" style="margin-top: 20px;">
+	<a href="scene5StepBad.html" class="btn btn-outline-light text-light" style="font-size: 20px; font-family: Courier New;">Help me understand then. LET ME HEAL YOU. LET ME PROTECT YOU.</a>
+</div>
+<div class="d-flex justify-content-center" style="margin-top: 10px;">
+	<a href="scene5Step.html" class="btn btn-outline-light text-light" style="font-size: 20px; font-family: Courier New;">I don't know if that's true. But if you ever want to talk about anything, I'm here for you.</a>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0; background-color: black;">
+	<footer id="main-footer">
+      <p>Copyright &copy; 2020, "Not My Y/N Fantasy" Official Site</p>
+	</footer>
+</div>
+
+</body>
+</html>
