@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Not My Y/N Fantasy</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  	<script>
+	$(document).ready(function(){
+ 		$('[data-toggle="popover"]').popover();
+	});
+	</script>
+
+	<style type="text/css">
+
+		#main-footer{
+			font-size: 15px;
+			color: white;
+		}
+
+		#main-header{
+      		color: white;
+      		font-family: Courier New
+		}
+
+		#narrate{
+			font-family: Courier New;
+			color: white;
+			font-size: 25px;
+			text-align: center;
+  			border: 2px solid white;
+  			border-radius: 5px;
+		}
+
+		#dialogue{
+			font-family: Courier New;
+			color: white;
+			font-size: 25px;
+			text-align: center;
+		}
+
+		#decision{
+			font-family: Courier New;
+			color: white;
+			font-size: 40px;
+			text-align: center;
+			text-decoration: overline;
+			text-shadow: 2px 2px 10px red;
+		}
+	</style>
+</head>
+
+<body style="background-color: black;">
+
+<div class="jumbotron text-center" style="background-color: black;">
+	<header id="main-header">
+		<p style="font-size: 40px;">You decided to: Put your cleaning supplies away.</p>
+	</header>
+</div>
+
+<div>
+	<article class="post" id="narrate">
+		<p>
+		You walk down the hall towards the supply closet to put your stuff away.
+		<br>
+		Suddenly, the lights go out. You feel the walls for a light switch. You find one and switch it on and off. All of the lights are still out.
+		<br>
+		The hallway is pitch black. You call out for someone in the darkness, but there's no answer.
+		</p>
+	</article>
+	<br>
+	<article class="post" id="decision">
+		<p>
+		DECISION: What do you do?
+		</p>
+	</article>
+</div>
+
+<div class="d-flex justify-content-center" style="margin-top: 20px;">
+	<a href="sceneDeath1.html" class="btn btn-outline-light text-light" style="font-size: 20px; font-family: Courier New;">Continue to the supply closet.</a>
+</div>
+<div class="d-flex justify-content-center" style="margin-top: 10px;">
+	<a href="scene5.html" class="btn btn-outline-light text-light" style="font-size: 20px; font-family: Courier New;">Leave the supplies and hide.</a>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0; background-color: black;">
+	<footer id="main-footer">
+      <p>Copyright &copy; 2020, "Not My Y/N Fantasy" Official Site</p>
+	</footer>
+</div>
+
+</body>
+</html>

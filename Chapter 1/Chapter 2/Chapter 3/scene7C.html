@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Not My Y/N Fantasy</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  	<script>
+	$(document).ready(function(){
+ 		$('[data-toggle="popover"]').popover();
+	});
+	</script>
+
+	<style type="text/css">
+
+		#main-footer{
+			font-size: 15px;
+			color: white;
+		}
+
+		#main-header{
+      		color: white;
+      		font-family: Courier New
+		}
+
+		#narrate{
+			font-family: Courier New;
+			color: white;
+			font-size: 25px;
+			text-align: center;
+  			border: 2px solid white;
+  			border-radius: 5px;
+		}
+
+		#dialogue{
+			font-family: Courier New;
+			color: white;
+			font-size: 25px;
+			text-align: center;
+		}
+
+		#decision{
+			font-family: Courier New;
+			color: white;
+			font-size: 40px;
+			text-align: center;
+			text-decoration: overline;
+			text-shadow: 2px 2px 10px red;
+		}
+	</style>
+</head>
+
+<body style="background-color: black;">
+
+<div class="jumbotron text-center" style="background-color: black;">
+	<header id="main-header">
+		<p style="font-size: 40px;">You decided to go to: look for another doorknob.</p>
+	</header>
+</div>
+<div>
+	<article class="post" id="narrate">
+		<p>
+		You feel around for another doorknob.
+		<br>
+		As soon as you take another step down the hallway, the door behind you opens, releasing a bit of light.
+		<br>
+		You feel a hand grip your wrist as you're pulled backwards into a room.
+		<br>
+		It's Jerry. You're in Jerry's room. He closes the door gently. His room is lit up by numerous candles.
+		</p>
+	</article>
+</div>
+
+<div class="container-fluid" style="margin-top:30px;">
+	<div class="d-flex justify-content-center">
+		<img class="img-fluid" src="images/jerry-bedroom.jpg">
+	</div>
+</div>
+
+<div>
+	<article class="post" id="dialogue">
+		<p>
+		You: Jerry, I am so glad to see you.
+		</p>
+		<br>
+		<p>
+		Jerry: Yeah. Me too.
+		</p>
+		<br>
+		<p>
+		You: Do you know what's going on? Do you think it's related to the Tokers?
+		</p>
+	</article>
+	<br>
+	<article class="post" id="narrate">
+		<p>
+		Since you told Jake about seeing Chad in his office:
+		</p>
+	</article>
+	<br>
+	<article class="post" id="dialogue">
+		<p>
+		Jerry: I'm not sure, but I probably shouldn't say anything about it.
+		</p>
+		<br>
+		<p>
+		You: Whatever.
+		</p>
+		<br>
+		<p>
+		Jerry: I'm gonna go find out what's happening. Just wait here until I come back.
+		</p>
+		<br>
+		<p>
+		You: Okay.
+		</p>
+	</article>
+	<br>
+	<article class="post" id="narrate">
+		<p>
+		Jerry leaves quietly.
+		<br>
+		You wait in the room alone for what feels like 30 minutes. You can't wait any longer.
+		</p>
+	</article>
+	<br>
+	<article class="post" id="decision">
+		<p>
+		DECISION: What do you do?
+		</p>
+	</article>
+</div>
+
+<div class="d-flex justify-content-center" style="margin-top: 20px;">
+	<a href="scene8.html" class="btn btn-outline-light text-light" style="font-size: 20px; font-family: Courier New;">Go find Jerry.</a>
+</div>
+<div class="d-flex justify-content-center" style="margin-top: 10px;">
+	<a href="scene8C.html" class="btn btn-outline-light text-light" style="font-size: 20px; font-family: Courier New;">Go find Jake.</a>
+</div>
+<div class="d-flex justify-content-center" style="margin-top: 10px;">
+	<a href="scene8B.html" class="btn btn-outline-light text-light" style="font-size: 20px; font-family: Courier New;">Escape from servitude.</a>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0; background-color: black;">
+	<footer id="main-footer">
+      <p>Copyright &copy; 2020, "Not My Y/N Fantasy" Official Site</p>
+	</footer>
+</div>
+
+</body>
+</html>

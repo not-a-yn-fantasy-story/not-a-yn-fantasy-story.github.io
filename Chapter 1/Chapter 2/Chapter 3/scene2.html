@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Not My Y/N Fantasy</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  	<script>
+	$(document).ready(function(){
+ 		$('[data-toggle="popover"]').popover();
+	});
+	</script>
+
+	<style type="text/css">
+
+		#main-footer{
+			font-size: 15px;
+			color: white;
+		}
+
+		#main-header{
+      		color: white;
+      		font-family: Courier New
+		}
+
+		#narrate{
+			font-family: Courier New;
+			color: white;
+			font-size: 25px;
+			text-align: center;
+  			border: 2px solid white;
+  			border-radius: 5px;
+		}
+
+		#dialogue{
+			font-family: Courier New;
+			color: white;
+			font-size: 25px;
+			text-align: center;
+		}
+
+		#decision{
+			font-family: Courier New;
+			color: white;
+			font-size: 40px;
+			text-align: center;
+			text-decoration: overline;
+			text-shadow: 2px 2px 10px red;
+		}
+	</style>
+</head>
+
+<body style="background-color: black;">
+
+<div class="jumbotron text-center" style="background-color: black;">
+	<header id="main-header">
+		<p style="font-size: 40px;">You decided to: Go talk to Tim for a bit.</p>
+	</header>
+</div>
+
+<div class="container-fluid" style="margin-top:30px;">
+	<div class="d-flex justify-content-center">
+		<img class="img-fluid" src="images/tim-living room.jpg">
+	</div>
+</div>	
+
+<div style="margin-top: 30px;">
+	<article class="post" id="dialogue">
+		<p>
+		Tim: Hey, y/n. What's up?
+		</p>
+		<br>
+		<p>
+		You: Nothing much. I just finished my work.
+		</p>
+		<br>
+		<p>
+		Tim: That's good. I actually wanted to talk to you about something.
+		</p>
+		<br>
+		<p>
+		You: What is it?
+		</p>
+		<br>
+		<p>
+		Tim: You might think it's kind of silly...but if I'm gonna tell anyone, it'll be you. You've kind of become my best friend. 
+		</p>
+		<br>
+		<p>
+		You: Aw
+		</p>
+		<br>
+		<p>
+		Tim: So, can you keep a secret?
+		</p>
+	</article>
+	<br>
+	<article class="post" id="decision">
+		<p>
+		DECISION: What do you say?
+		</p>
+	</article>
+</div>
+
+<div class="d-flex justify-content-center" style="margin-top: 20px;">
+	<a href="scene3Tim.html" class="btn btn-outline-light text-light" style="font-size: 20px; font-family: Courier New;">"Of course, Tim." (I'm in love with you)</a>
+</div>
+<div class="d-flex justify-content-center" style="margin-top: 10px;">
+	<a href="scene3.html" class="btn btn-outline-light text-light" style="font-size: 20px; font-family: Courier New;">"I don't know, but I'll try."</a>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0; background-color: black;">
+	<footer id="main-footer">
+      <p>Copyright &copy; 2020, "Not My Y/N Fantasy" Official Site</p>
+	</footer>
+</div>
+
+</body>
+</html>
