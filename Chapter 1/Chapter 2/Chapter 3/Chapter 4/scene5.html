@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Not A Y/N Fantasy</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  	<script>
+	$(document).ready(function(){
+ 		$('[data-toggle="popover"]').popover();
+	});
+	</script>
+
+	<style type="text/css">
+
+		#main-footer{
+			font-size: 15px;
+			color: white;
+		}
+
+		#main-header{
+      		color: white;
+      		font-family: Courier New
+		}
+
+		#narrate{
+			font-family: Courier New;
+			color: white;
+			font-size: 25px;
+			text-align: center;
+  			border: 2px solid white;
+  			border-radius: 5px;
+		}
+
+		#dialogue{
+			font-family: Courier New;
+			color: white;
+			font-size: 25px;
+			text-align: center;
+		}
+
+		#decision{
+			font-family: Courier New;
+			color: white;
+			font-size: 40px;
+			text-align: center;
+			text-decoration: overline;
+			text-shadow: 2px 2px 10px red;
+		}
+
+		#good-end{
+			font-family: Courier New;
+			color: white;
+			font-size: 100px;
+			text-align: center;
+			text-decoration: overline;
+			text-shadow: 2px 2px 10px yellow;
+		}
+	</style>
+</head>
+
+<body style="background-color: black;">
+
+<div class="container-fluid" style="margin-top:30px;">
+	<div class="d-flex justify-content-center">
+		<img class="img-fluid" src="images/truck-fence.jpg">
+	</div>
+</div>
+
+<div style="margin-top: 30px">
+	<article class="post" id="narrate">
+		<p>
+		You and Hermina climb over the fence and hop into Tim's truck. Tim is in the passenger seat and Jimothee is driving.
+		<br>
+		Soon after Jerry emerges from the woods. Once he is in the truck. Jimothee drives away.
+		<br>
+		You all celebrate your escape from Jake by listening to his debut song "Sweatsuit" on repeat.
+		</p>
+	</article>
+	<br>
+	<article class="post" id="dialogue">
+		<p>
+		Tim: I never thought we'd actually do it.
+		</p>
+		<br>
+		<p>
+		Hermina: I know right. I thought we'd be stuck there forever.
+		</p>
+		<br>
+		<p>
+		Jimothee: Me too.
+		</p>
+	</article>
+	<br>
+	<article class="post" id="narrate">
+		<p>
+		The other three continue to talk about everything they won't miss about Jake.
+		<br>
+		Jerry turns to you.
+		</p>
+	</article>
+	<article class="post" id="dialogue">
+		<p>
+		Jerry: So what do you want to do now?
+		</p>
+		<br>
+		<p>
+		You: I don't know. I haven't thought that far ahead.
+		</p>
+		<br>
+		<p>
+		Jerry: Me neither.
+		</p>
+		<br>
+		<p>
+		You: I'm just grateful for the opportunity to choose now.
+		</p>
+	</article>
+</div>
+
+
+<div style="margin-top:30px;">	
+	<article class="post" id="good-end">
+		<p>
+		GOOD END
+		</p>
+	</article>
+	<br>
+	<article class="post" id="dialogue">
+		<p>
+		You drive off into the distance without a destination in mind, relishing in your new found freedom.
+		</p>
+	</article>
+	<br>
+	<article class="post" id="narrate">
+		<p>
+		Play again for a different outcome.
+		</p>
+	</article>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0; background-color: black;">
+	<footer id="main-footer">
+      <p>Copyright &copy; 2020, "Not My Y/N Fantasy" Official Site</p>
+	</footer>
+</div>
+
+</body>
+</html>
