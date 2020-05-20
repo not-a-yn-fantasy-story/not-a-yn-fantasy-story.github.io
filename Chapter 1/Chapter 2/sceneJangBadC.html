@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Not My Y/N Fantasy</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  	<script>
+	$(document).ready(function(){
+ 		$('[data-toggle="popover"]').popover();
+	});
+	</script>
+
+	<style type="text/css">
+
+		#main-footer{
+			font-size: 15px;
+			color: white;
+		}
+
+		#main-header{
+      		color: white;
+      		font-family: Courier New
+		}
+
+		#narrate{
+			font-family: Courier New;
+			color: white;
+			font-size: 25px;
+			text-align: center;
+  			border: 2px solid white;
+  			border-radius: 5px;
+		}
+
+		#dialogue{
+			font-family: Courier New;
+			color: white;
+			font-size: 25px;
+			text-align: center;
+		}
+
+		#decision{
+			font-family: Courier New;
+			color: white;
+			font-size: 40px;
+			text-align: center;
+			text-decoration: overline;
+			text-shadow: 2px 2px 10px red;
+		}
+
+		#bad-end{
+			font-family: Courier New;
+			color: white;
+			font-size: 100px;
+			text-align: center;
+			text-decoration: overline;
+			text-shadow: 2px 2px 10px red;
+		}
+	</style>
+</head>
+
+<body style="background-color: black;">
+
+<div class="jumbotron text-center" style="background-color: black;">
+	<header id="main-header">
+		<p style="font-size: 40px;">You decided to: Meet Jangcook in the garden and run away with him.</p>
+	</header>
+</div>
+	
+<div>
+	<article class="post" id="narrate">
+		<p>
+		You sneak off to the garden to meet Jangcook.
+		<br>
+		He's waiting outside like he said he would.
+		</p>
+	</article>
+</div>
+
+<div class="container-fluid" style="margin-top:30px;">
+	<div class="d-flex justify-content-center">
+		<img class="img-fluid" src="images/jangcook-garden.jpg">
+	</div>
+</div>
+
+<div style="margin-top: 30px;">
+	<article class="post" id="dialogue">
+		<p>
+		Jangcook: ...
+		</p>
+		<br>
+		<p>
+		You: I'm ready to go!
+		</p>
+		<br>
+		<p>
+		Jangcook: Okay.
+		</p>
+	</article>
+	<br>
+	<article class="post" id="narrate">
+		<p>
+		Jangcook grabs your hand and you run away together never looking back.
+		</p>
+	</article>
+</div>
+
+<div class="jumbotron text-center" style="background-color: black;">
+	<header id="main-header">
+		<p style="font-size: 40px;">1 Year Later</p>
+	</header>
+</div>
+
+<div style="margin-top: 30px;">
+	<article class="post" id="narrate">
+		<p>
+		You two have been hotel hopping for the past year. Travelling all over the country. You two don't really talk much or have anything in common, but every day is still a party.
+		<br>
+		Tonight, you come back to your hotel room late from being out with your friends that are boys.
+		Jangcook doesn't seem too pleased.
+		</p>
+	</article>
+	<br>
+	<article class="post" id="dialogue">
+		<p>
+		Jangcook: Where have you been, y/n?
+		</p>
+		<br>
+		<p>
+		You: Wow, that's the first thing you've said to me this week.
+		</p>
+		<br>
+		<p>
+		Jangcook: I asked you a question.
+		</p>
+		<br>
+		<p>
+		You: What was it again? I already forgot.
+		</p>
+		<br>
+		<p>
+		Jangcook: Where have you been?
+		</p>
+		<br>
+		<p>
+		You: Out.
+		</p>
+	</article>
+	<br>
+	<article class="post" id="narrate">
+		<p>
+		Jangcook slams you against the wall, knocking you out.
+		</p>
+	</article>
+</div>
+
+<div class="container-fluid" style="margin-top:30px;">
+	<div class="d-flex justify-content-center">
+		<img class="img-fluid" src="images/jang-bad.jpg">
+	</div>
+</div>
+
+<div style="margin-top: 30px;">
+	<article class="post" id="dialogue">
+		<p>
+		Jangcook: Now you're really out.
+		</p>
+	</article>
+	<br>
+	<article class="post" id="narrate">
+		<p>
+		You wake up alone in the hotel room. You have no idea where you are, or even who you are.
+		</p>
+	</article>
+	<br>
+	<article class="post" id="bad-end">
+		<p>
+		BAD END
+		</p>
+	</article>
+</div>
+
+<div class="container-fluid" style="margin-top:30px;">
+	<div class="d-flex justify-content-center">
+		<img class="img-fluid" src="images/y-n-cry.jpg">
+	</div>
+</div>
+
+<div style="margin-top: 30px;">
+	<article class="post" id="dialogue">
+		<p>
+		Broken Heart.
+		</p>
+	</article>
+</div>
+
+<div class="d-flex justify-content-center" style="margin-top: 20px;">
+	<a href="scene1C.html" class="btn btn-outline-light text-light" style="font-size: 30px; font-family: Courier New;">Try again.</a>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0; background-color: black;">
+	<footer id="main-footer">
+      <p>Copyright &copy; 2020, "Not My Y/N Fantasy" Official Site</p>
+	</footer>
+</div>
+
+</body>
+</html>
